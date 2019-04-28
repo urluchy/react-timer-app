@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: rgb(255, 225, 196);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 60px;
+
+  color: #f3f3f3;
+  font-size: 28px;
+  
+}
+
+.App-header h3 {
+  color: #6f00ff;
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.App-header h3 span {
+  color: #3bdcf8;
+  font-weight: 300;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
