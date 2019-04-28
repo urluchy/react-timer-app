@@ -28,11 +28,43 @@
   font-weight: 300;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.time-view{
+  background-color: #ff968a;
+  padding: 15px;
+  
+}
+
+.time-view .time{
+  color: #f3f3f3;
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px dashed #AAA;
+  outline: none
+}
+button.start {
+  background-color: rgb(167, 198, 201);
+}
+button.lap {
+  background-color: rgb(212, 170, 209);
+}
+button.pause {
+  background-color: rgb(207, 157, 157);
+}
+button.stop {
+  background-color: rgb(201, 224, 157)
+}
+button:disabled {
+  background: #EEE;
+  color: #AAA;
+}
+.lap {
+  padding: 15px;
+  border-bottom: 1px dashed #EEE
 }
